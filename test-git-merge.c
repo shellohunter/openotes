@@ -5,11 +5,12 @@
 5ccccc
 ===================
 
-
-int this_is_a_test(unsigned int o)
+int this_is_a_test(char * va)
 {
-	int a=0;
-	int b=0;
+	int a = 0;
+	int b = 0;
 
-	return a+b+i;
+	printf("%s\n", va);
+
+	return 0;
 }
